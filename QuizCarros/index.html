@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Carros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <div id="Quiz">
+        <div class="questionario">
+
+
+
+            <div class="titulo">
+                <h1>Qual carro você seria? (Sedan, F1, SUV, Caminhão)</h1>
+            </div>
+
+        
+        <h1 id="PG1">Qual o tipo de automotivo que você prefere?</h1>
+        <label><input type="radio" name="pergunta1" value="F1">Rápido e preciso</label>
+        <label><input type="radio" name="pergunta1" value="SEDAN">Confortável e estável</label>
+        <label><input type="radio" name="pergunta1" value="SUV">Espaçoso e forte</label>
+        <label><input type="radio" name="pergunta1" value="CAMINHAO">Transportes e cargas</label>
+        <hr>
+            
+        <h1 id="PG2">Qual dessas te interessa mais?</h1>
+        <label><input type="radio" name="pergunta2" value="F1">Pistas feitas para correr e/ou de corrida</label>
+        <label><input type="radio" name="pergunta2" value="SEDAN"> Vias rápidas</label>
+        <label><input type="radio" name="pergunta2" value="SUV">Vias arteriais</label>
+        <label><input type="radio" name="pergunta2" value="CAMINHÃO">Rodovias/Estradas</label>
+        <hr>
+    
+        <h1 id="PG3">Que tipo de conforto te agrada mais?</h1>
+        <label><input type="radio" name="pergunta3" value="F1">Troca rápida de marcha</label>
+        <label><input type="radio" name="pergunta3" value="SEDAN">Tração traseira e autonomia</label>
+        <label><input type="radio" name="pergunta3" value="SUV">Espaço e família</label>
+        <label><input type="radio" name="pergunta3" value="CAMINHAO">Viajar e conhecer o mundo</label>
+        <hr>
+    
+        <h1 id="PG4">Qual desses objetivos você se identifica?</h1>
+        <label><input type="radio" name="pergunta4" value="F1">Ser sempre o melhor</label>
+        <label><input type="radio" name="pergunta4" value="SEDAN">Se divertir</label>
+        <label><input type="radio" name="pergunta4" value="SUV">Sair e passear</label>
+        <label><input type="radio" name="pergunta4" value="CAMINHAO">Conduzir diversas coisas</label>
+        <hr>
+    
+        <h1 id="PG5">Qual dessas habilidades?</h1>
+        <label><input type="radio" name="pergunta5" value="F1">Sentir o carro e conhecê-lo bem</label>
+        <label><input type="radio" name="pergunta5" value="SEDAN">Agilidade no volante e nas curvas</label>
+        <label><input type="radio" name="pergunta5" value="SUV">Noção exata do espaço ocupado pelo carro</label>
+        <label><input type="radio" name="pergunta5" value="CAMINHAO">Atenção e percepção total nas pistas</label>
+        <hr>
+   
+        <h1 id="PG6">Quantas pessoas você gostaria de levar no seu veículo?</h1>
+        <label><input type="radio" name="pergunta6" value="F1">Apenas eu</label>
+        <label><input type="radio" name="pergunta6" value="SEDAN">Duas à três pessoas</label>
+        <label><input type="radio" name="pergunta6" value="SUV">Oito pessoas</label>
+        <label><input type="radio" name="pergunta6" value="CAMINHAO">Uma pessoa</label>
+        <hr>
+    
+        <h1 id="PG7">Caso em um campeonato, você iria preferir ganhar por?</h1>
+        <label><input type="radio" name="pergunta7" value="F1">Habilidades e motor</label>
+        <label><input type="radio" name="pergunta7" value="SEDAN">Beleza e estabilidade</label>
+        <label><input type="radio" name="pergunta7" value="SUV">Popular e compacto</label>
+        <label><input type="radio" name="pergunta7" value="CAMINHAO">Grandeza e Eficiência</label>
+        <hr>
+   
+        <h1 id="PG8">Escolha um piloto brasileiro.</h1>
+        <label><input type="radio" name="pergunta8" value="F1">Ayrton Senna</label>
+        <label><input type="radio" name="pergunta8" value="SEDAN">Nelson Piquet</label>
+        <label><input type="radio" name="pergunta8" value="SUV">Rubens Barrichelo</label>
+        <label><input type="radio" name="pergunta8" value="CAMINHAO">Felipe Massa</label>
+        <hr>
+
+        <h1 id="PG9">Qual estilo de música você prefere no seu carro?</h1>
+        <label><input type="radio" name="pergunta9" value="F1">O som do motor</label>
+        <label><input type="radio" name="pergunta9" value="SEDAN">Populares</label>
+        <label><input type="radio" name="pergunta9" value="SUV">Relaxantes</label>
+        <label><input type="radio" name="pergunta9" value="CAMINHAO">Rock</label>
+        <hr>
+
+        <h1 id="PG10">Escolha as melhores partes do seu veículo.</h1>
+        <label><input type="radio" name="pergunta10" value="F1">Motor, potência e freio</label>
+        <label><input type="radio" name="pergunta10" value="SEDAN">Suspensão, volante e rodas</label>
+        <label><input type="radio" name="pergunta10" value="SUV">Carroceria, porta-malas e tamanho</label>
+        <label><input type="radio" name="pergunta10" value="CAMINHAO">Peso, torque e articulação</label>
+        <hr>
+         
+
+<div id="Resul">
+<h1>Resultado</h1>
+<button onclick="direcionar()">RESULTADO</button>
+<h1 id="resultado"></h1>
+</div>
+
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+

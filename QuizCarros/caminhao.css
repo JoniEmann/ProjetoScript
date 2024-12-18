@@ -1,0 +1,26 @@
+
+body {
+    background-color: rgb(29, 114, 71);
+    color: white;
+    font-family: "Poppins", serif;
+    text-align: center;
+    padding: 5%; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #fcfcfc; 
+    font-size: 3em; 
+}
+
+h2 {
+    color: #000000; 
+    font-size: 2em; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}

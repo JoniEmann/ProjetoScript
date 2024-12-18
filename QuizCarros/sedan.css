@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: "Poppins", serif;
+    text-align: center;
+    padding: 5%; 
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 3em; 
+    margin-bottom: 5%; 
+}
+
+h2 {
+    color: #ffffff; 
+    font-size: 2em; 
+    margin-bottom: 10%; 
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2%;
+    padding: 5%; 
+    box-shadow: 0 0 2% rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
